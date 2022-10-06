@@ -83,3 +83,13 @@ $sort
 
 
 ## GET /api/products/add/PRODUCTID
+
+-Al usuario logado le agregamos el producto cuyo ID extraemos de la URL.
+    -Recuperamos el id del producto
+    -Al array de productos del usuario logado le agregamos el producto anterior.
+    -Respondemos con lo que sea.
+
+
+## GET /api/products/cart
+
+-Recuperar los productos del usuario logado.

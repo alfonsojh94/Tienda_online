@@ -17,7 +17,9 @@ const checkToken = async (req, res, next) => {
     }
 
     //!Recuperar que ha realizado el login.
-    const user = await User.findById(obj.userId).populate('products');
+    const user = await User
+        .findById(obj.userId)
+        .populate('products');
     req.user = user;
 
     next();
