@@ -1,0 +1,66 @@
+GET http://localhost:3000/api/products
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNmFjNmYxYTIyMTBkOWY3ZmYxY2UiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NDk3MTQ4NX0.mky-t9rGCdb4rPWTYcyfDRbXaapX8-yyK8Q2Ndn6Vrc
+
+
+###
+GET http://localhost:3000/api/products/633be6df40eccba298904b34
+
+###
+GET http://localhost:3000/api/products/dpto/stats
+
+###
+GET http://localhost:3000/api/products/dpto/same
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlNzgyOWIzZTVlZTA1N2QxODFiYTIiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0Mjk1MX0.Xm5e09ehAPMj-OrGNGcDbDB_-MiL-gOLU0vhCA5FEBc
+
+
+###
+GET http://localhost:3000/api/products/add/633be7be40eccba298904b35
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlNzgyOWIzZTVlZTA1N2QxODFiYTIiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0OTA1MX0._G6e8GA5hZ9SxL6cDYFE1b127X1PkWNV7TaezXhj3is
+
+
+
+
+
+
+
+###
+GET http://localhost:3000/api/products/taxes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlNzgyOWIzZTVlZTA1N2QxODFiYTIiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0Mjk1MX0.Xm5e09ehAPMj-OrGNGcDbDB_-MiL-gOLU0vhCA5FEBc
+
+###
+GET http://localhost:3000/api/products/cart
+
+###
+GET http://localhost:3000/api/products/dpto/Moda
+
+###
+GET http://localhost:3000/api/products/pr/max/90
+
+###
+GET http://localhost:3000/api/products/pr/max/90
+
+###
+GET http://localhost:3000/api/products/available
+
+###
+GET http://localhost:3000/api/products/pr/250
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Siux Fenix II",
+    "description": "Pala de padel, Javi Ruiz",
+    "price": 420,
+    "department": "Deporte",
+    "available": false,
+    "stock": 1
+}
+
+###
+GET http://localhost:3000/api/products/list/asc
+
+###
+GET http://localhost:3000/api/products/list/desc
+
